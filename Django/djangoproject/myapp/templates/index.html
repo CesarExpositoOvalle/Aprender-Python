@@ -1,7 +1,10 @@
 {% extends 'layouts/base.html' %}
 
+{% load static %}
 
 {% block content %}
 <h1>{{title}}</h1>
+
+<img src="{% static 'mona china.jpeg' %}" alt="">
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem asperiores sapiente repellat, eum nostrum delectus, temporibus excepturi enim nesciunt optio tempore unde, eius atque nemo incidunt cum assumenda iste saepe!</p>
 {% endblock %}
