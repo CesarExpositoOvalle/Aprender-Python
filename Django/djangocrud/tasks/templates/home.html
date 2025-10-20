@@ -1,1 +1,21 @@
-<h1>Home</h1>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django crud</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae amet fuga culpa deleniti esse qui debitis provident, rem id vitae repellendus, totam quod voluptate aspernatur doloribus, soluta consequatur! Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque a iste neque quod enim optio repellendus beatae, exercitationem sint quam, nam ratione hic aperiam vero vel obcaecati sit placeat perspiciatis!</p>
+        
+        <div class="text-center"> 
+            <a class="btn btn-dark" href="/singin/">
+                Singin
+            </a>
+            <a class="btn btn-dark" href="/singup/">
+                Singup
+            </a> 
+        </div>
+        
+    </section>
+</main>
+{% endblock %}

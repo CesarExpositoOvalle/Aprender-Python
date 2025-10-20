@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Singin</h1>
+
+<form action="/singin/" method="POST">
+    {% csrf_token %}
+
+    {{error}}
+
+    {{form.as_p}}
+
+    <button>
+        singin
+    </button>
+
+</form>
+
+{% endblock %}
